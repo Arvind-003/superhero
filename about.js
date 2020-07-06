@@ -1,5 +1,5 @@
 (function () {
-    //fetching name of super hero from local storage
+    //fetching name of currently clicked super hero from local storage
     var body=document.getElementsByTagName('body')[0];
     var heroname=localStorage.getItem("about");
     console.log(heroname);

@@ -1,7 +1,7 @@
 
 (function () {
     let superherolist = document.getElementsByClassName('superhero-list')[0];
-    //fetching name of super hero from local storage
+    //fetching name of super hero from local storage and adding them to the favourite list
     var body = document.getElementsByTagName('body')[0];
     for (let i = 0; i < localStorage.length; i++) {
         var heroname = localStorage.key(i);

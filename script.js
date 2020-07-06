@@ -80,8 +80,8 @@
             container.addEventListener('click',addfav);
             function addfav(e){
                 if (e.target.classList.contains("fav")) {
-                    //to get name of hero we store name in innerhtml  and stored name in keyvalue variable
-                    // var keyvalue=e.target.parentElement.parentElement.children[0].innerHTML;
+                    
+                    //wheneever we click on add fav button the super hero added to the favourite list
                     var heroname=e.target.parentElement.parentElement.children[0].innerHTML;
                     var herovalue=e.target.parentElement.parentElement.parentElement.children[0].innerHTML;
                     const key=heroname;
