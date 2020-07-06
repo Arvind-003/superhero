@@ -4,13 +4,9 @@
 (function () {
     let superherolist = document.getElementsByClassName('superhero-list')[0];
     let inputkeypress = document.getElementsByTagName('input')[0];
-    // var arr={};
-    // localStorage.setItem('array',JSON.stringify(arr));
-
-
-
-
-    function requestinitialise() {
+    
+    function requestinitialise() 
+    {
         //request to server initialised
         var xhr = new XMLHttpRequest();
         var name = inputkeypress.value;
@@ -96,6 +92,8 @@
                     {
                         localStorage.setItem(key,value);
                     }
+
+                    e.target.className="favhero";
                     
 
                     

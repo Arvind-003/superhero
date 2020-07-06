@@ -80,10 +80,15 @@ input{
 }
 
 .superhero-list .list .info button{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding: 2px;
     color: red;
     cursor: pointer;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
+}
+.superhero-list .list .info .favhero{
+    background-color: red;
+    color: whitesmoke;
 }
 .superhero-list .id{
     color: seashell;
