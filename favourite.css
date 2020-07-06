@@ -59,7 +59,8 @@ body{
 .superhero-list .list .info button{
     font-size: 1.2rem;
     padding: 3px;
-    color: red;
+    background-color: red;
+    color: whitesmoke;
     cursor: pointer;
     margin-top: 1rem;
 }
