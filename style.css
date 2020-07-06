@@ -9,12 +9,20 @@ body{
 h1{
     color: coral;
     font-size: 3rem;
-    margin:5rem;
+    margin:5rem 5rem 3rem 5rem;
 }
 a{
-    position: absolute;
-    right: 10%;
+    margin: 1rem 0 3rem 3rem;
+    display: block;
+    
     color: seashell;
+}
+a button{
+    font-size: 1.2rem;
+    padding: 2px;
+    background-color: red;
+    color: whitesmoke;
+    cursor: pointer;
 }
 input{
     width: 80%;
