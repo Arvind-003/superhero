@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.redirect{
+    margin-top: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.redirect button{
+    background-color: coral;
+    border: none;
+    font-size: 1.4rem;
+    color: rgb(6, 255, 6);
+    padding: 10px;
+    cursor: pointer;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.image{
+    width: 30%;
+    height: 40rem;
+    /* background-color: white; */
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    /* background-color: darkgreen; */
+}
+.basicinfo{
+    width:50% ;
+    /* height: 400px; */
+    /* background-color: lightcoral; */
+}
+ .name{
+   /* background-color: khaki; */
+    font-size: 5rem;
+    color: rgb(255, 0, 0);
+    font-family: 'Bangers', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Saira', sans-serif;
+}
+.biography{
+    width: 100%;
+    /* height: 200px; */
+    /* background-color: lightgrey; */
+    margin-top: 30px;
+    display: flex;
+    
+}
+.biography .biographypart{
+    font-size: 2rem;
+    font-weight: 500;
+    width: 200px;
+    color: rgb(156, 85, 4);
+}
+.biography .biographyinfo{
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.biography .biographyinfo p{
+    margin-top: 10px;
+    color: rgb(241, 233, 113);
+    font-family: 'Dancing Script', cursive;
+     font-family: 'Kalam', cursive;
+     font-family: 'Saira', sans-serif;
+
+}
+.biography .biographyinfo p span{
+    font-size: 1.2;
+    font-weight: 500;
+    color: rgb(0, 255, 42);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kalam', cursive;
+}
+
